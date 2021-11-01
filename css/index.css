@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;  
+}
+.me_image{
+    width: 10%;
+    height: 10%;
+    border-radius: 30%;
+}
+.scr_left{
+    background-color: rgb(36, 0, 94);
+}
+
+.scr_right{
+    background-color: rgb(255, 251, 249);
+    width: 50%;
+}
+#split_screen{
+    display:flex
+}
