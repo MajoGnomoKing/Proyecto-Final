@@ -1,33 +1,37 @@
 body {
-  margin: 0;
-  padding: 0;  
+  margin: auto;
+  padding: auto;  
 }
 
 .scr_left{
     background: linear-gradient(to bottom,rgb(25, 5, 82),rgb(11, 6, 73),rgb(40, 4, 56));
     height: 100vh;
-    width: 50%;
+    width: 30%;
+    margin: 3%;
+    padding: 3%;
 }
 .me_image{
+    padding: auto;
     margin:auto;
     display: block;
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
    
 }
 .sub_left{
-    margin-inline: 15%;
+    text-align: center;
     color: white;
     font-size: 25px;
 }
 .p_left{
-    margin-inline: 15%;
+    text-align: center;
     color:rgb(255, 255, 255);
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .title_name{
+    margin-top:auto; 
      text-align: center;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     font-size: 55px;
@@ -36,8 +40,10 @@ body {
 }
 .scr_right{
     background-color: white;
-    width: 50%;
+    width: 70%;
     height: 100vh;
+    margin: 3%;
+    padding: 3%;
 }
 .sub_right {
     margin-inline: 15%;
