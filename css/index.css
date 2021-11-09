@@ -6,6 +6,20 @@
     font-family: open sans condensed;
 
 }
+:root {
+    --base: #f6f6f6;
+    --primary:#383838;
+    --secondary:#2f2fb3;
+}
+
+body{
+    background: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    font-size: 18px;
+}
 .container{
     position: relative;
     width: 100%;
@@ -19,11 +33,8 @@
 }
 
 .scr_left{
-    background: rgb(32, 32, 32);
-    height: 100vh;
-    width: 30%;
-    margin: 3%;
-    padding: 3%;
+    background: var(--primary);
+    padding: 1.5rem;
 }
 .me_image{
     padding: auto;
@@ -54,11 +65,8 @@
     
 }
 .scr_right{
-    background-color: white;
-    width: 70%;
-    height: 100vh;
-    margin: 3%;
-    padding: 3%;
+    background:var(--base);
+    padding: 1.5rem;
 }
 .sub_right {
     margin-inline: 15%;
