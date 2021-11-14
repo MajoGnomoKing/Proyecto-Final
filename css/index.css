@@ -33,7 +33,7 @@ body {
     background: var(--base);
     display: grid;
     grid-template-columns: 8fr 7fr;
-    box-shadow: 5px 5px 5px 5px rgb(109, 109, 109);
+    box-shadow: 5px 5px 5px 5px rgb(71, 71, 71);
     margin: 2rem;
 }
 
@@ -87,13 +87,14 @@ body {
 }
 
 .left_items {
-    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
     color: var(--base);
     }    
 
 .left_items .left_title {
-    padding-bottom: 0.5rem ;
-    font-size: 1.2rem;
+    padding-bottom: 0.6rem ;
+    font-size: 1.3rem;
     }
     
     .left_items ul li {
@@ -103,24 +104,64 @@ body {
     
     .left_items ul li .icons {
     display: inline-block;
-    width: 1.2rem;
+    width: 1.3rem;
     color: var(--icon);
     }
 
 /*right*/
-.right_title_1 {
-    font-size: 2rem;
-    margin-top: 0.8rem;
-    padding: 4rem;
+.right_items {
+    margin-bottom: 2rem;
     font-weight: 600;
     color: var(--primary);
+}
+
+.right_items .right_title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+   margin-bottom: 1rem;
+}
+
+.hobbies {
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+}
+
+.hobbies li {
+    text-align: center;
+    list-style: none;
+    width: 2rem;
+    font-size: 1.2rem;
+}
+
+.right_title_2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+   margin-top: 1rem;
+
+}
+
+.paragraph_right {
+    margin-top: 0.8rem ;
+    font-size: 1.4rem;
+    font-weight: 500;
+
 }
 
 
 
 
-@media (max-widht: 480px){
+
+@media (max-widht: 800px){
     .container{
-        grid-template-columns: 1, 1fr;
+    grid-template-columns: (1, 1fr);
+    }
+}
+
+@media (max-widht: 500px){
+    .hobbies{
+    grid-template-columns: (2, 1fr);
+    }
+    .hobbies li {
+    margin-bottom: 1rem ;
     }
 }
