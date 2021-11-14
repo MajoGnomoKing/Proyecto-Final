@@ -25,10 +25,10 @@ body {
     position: relative;
     width: 100%;
     max-width: 1400px;
-    min-height: 600px;
+    min-height: 480px;
     background: var(--base);
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 8fr 7fr;
     box-shadow: black;
     margin: 1.5rem;
 }
@@ -90,7 +90,6 @@ body {
     margin-top: 0.8rem;
     font-weight: 600;
     color: var(--primary);
-    text-align: left;
 }
 @media (max-widht: 480px){
     .container{
