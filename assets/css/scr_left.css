@@ -1,6 +1,11 @@
 .scr_left {
   background: var(--primary);
   padding: 1.5rem;
+  transition: 0.3s ease all;
+}
+
+body.dark .scr_left {
+  background: var(--dark_grey);
 }
 
 .profile {

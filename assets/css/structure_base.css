@@ -1,8 +1,11 @@
 :root {
   --base: #f6f6f6;
   --primary: #383838;
-  --secondary: #131313;
+  --secondary: #c2c2c2;
   --icon: #f19d1f;
+  --dark_medium: rgb(48, 48, 48);
+  --dark_grey:rgb(46, 46, 46) ;
+  --night: rgb(31, 31, 31);
 }
 
 body {
@@ -12,6 +15,11 @@ body {
   align-content: center;
   min-height: 100vh;
   font-size: 16px;
+  transition: 0.3s ease all;
+}
+
+body.dark {
+    background: var(--dark_medium);
 }
 
 .container {
@@ -24,6 +32,10 @@ body {
   grid-template-columns: 4fr 5fr;
   box-shadow: 5px 5px 5px 5px rgb(71, 71, 71);
   margin: 2rem;
+}
+
+body.dark .container {
+    box-shadow: 5px 5px 5px 5px rgb(126, 125, 125);
 }
 
 @media (max-width: 580px) {

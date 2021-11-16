@@ -1,12 +1,21 @@
 .scr_right {
   background: var(--base);
   padding: 1.5rem;
+  transition: 0.3s ease all;
+}
+body.dark .scr_right {
+    background: var(--night);
 }
 
 .right_items {
   margin-bottom: 2rem;
   font-weight: 600;
   color: var(--primary);
+  transition: 0.3s ease all;
+}
+
+body.dark .right_items {
+    color: var(--base);
 }
 
 .button {
@@ -69,6 +78,10 @@
   font-size: 1.2rem;
 }
 
+body.dark .hobbies li {
+    color:var(--icon);
+}
+
 .right_title_2 {
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -92,4 +105,8 @@
   list-style: none;
   width: 2rem;
   font-size: 1.2rem;
+}
+
+body.dark .adjectives li {
+    color: var(--icon);
 }
