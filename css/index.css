@@ -22,17 +22,18 @@ body {
     justify-content: center;
     align-content: center;
     min-height: 100vh;
-    font-size: 18px;
+    font-size: 16px;
 }
+
 
 .container{
     position: relative;
-    width: 100%;
-    max-width: 1400px;
-    min-height: 480px;
+    width: 90%;
+    max-width: 62rem;
+    min-height: 31rem;
     background: var(--base);
     display: grid;
-    grid-template-columns: 8fr 7fr;
+    grid-template-columns: 4fr 5fr;
     box-shadow: 5px 5px 5px 5px rgb(71, 71, 71);
     margin: 2rem;
 }
@@ -87,13 +88,11 @@ body {
 }
 
 .left_items {
-    margin-bottom: 2rem;
-    font-weight: 500;
+    margin-top: 1.2rem;
     color: var(--base);
     }    
 
 .left_items .left_title {
-    margin-top: 1rem;
     padding-bottom: 0.7rem ;
     font-size: 1.4rem;
     }
@@ -116,6 +115,40 @@ body {
     color: var(--primary);
 }
 
+.button { 
+    background: var(--primary);
+    border-radius: 50px;
+    border:none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    margin-bottom: 1rem;
+    
+}
+.button::after {
+content: "";
+display: block;
+width: 30px;
+height: 30px;
+position: absolute;
+background:var(--base);
+top: 0;
+left: 0;
+right: unset;
+border-radius: 100px;
+transition: .3s ease all;
+}
+.button span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: block;
+        background: none;
+        color: var(--base);
+
+}
+
 .right_items .right_title {
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -124,7 +157,7 @@ body {
 
 .hobbies {
     display: grid;
-    grid-template-columns: repeat(4,3fr);
+    grid-template-columns: repeat(4,1fr);
 }
 
 .hobbies li {
@@ -152,7 +185,7 @@ body {
 
 .adjectives {
     display: grid;
-    grid-template-columns: repeat(4,3fr);
+    grid-template-columns: repeat(4,1fr);
 }
 
 .adjectives li {
@@ -162,21 +195,13 @@ body {
     font-size: 1.2rem;
 }
 
+@media (max-widht: 1368px) {
+ body {
+     font-size: 14px;
+ }
+}
+@media (max-widht:480px) {
 
-
-
-
-@media (max-widht: 800px){
-    .container{
-    grid-template-columns: (1, 1fr);
-    }
 }
 
-@media (max-widht: 500px){
-    .hobbies{
-    grid-template-columns: (2, 1fr);
-    }
-    .hobbies li {
-    margin-bottom: 1rem ;
-    }
-}
+
