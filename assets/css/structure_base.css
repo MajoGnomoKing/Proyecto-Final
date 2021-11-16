@@ -1,0 +1,33 @@
+:root {
+    --base: #f6f6f6;
+    --primary: #383838;
+    --secondary: #131313;
+    --icon: #f19d1f;
+  }
+  
+  body {
+    background: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    font-size: 16px;
+  }
+  
+  .container {
+    position: relative;
+    width: 90%;
+    max-width: 62rem;
+    min-height: 31rem;
+    background: var(--base);
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    box-shadow: 5px 5px 5px 5px rgb(71, 71, 71);
+    margin: 2rem;
+  }
+  
+  @media (max-width: 580px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }

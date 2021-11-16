@@ -1,0 +1,67 @@
+
+.scr_left {
+  background: var(--primary);
+  padding: 1.5rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1rem;
+  color: var(--base);
+  border-bottom: 1px solid var(--base);
+}
+
+.profile .image {
+  position: relative;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile .image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile h4 {
+  font-size: 2rem;
+  margin-top: 0.8rem;
+  font-weight: 600;
+}
+
+.paragraph {
+  margin-top: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--base);
+}
+
+.left_items {
+  margin-top: 1.2rem;
+  color: var(--base);
+}
+
+.left_items .left_title {
+  padding-bottom: 0.7rem;
+  font-size: 1.4rem;
+}
+
+.left_items ul li {
+  list-style: none;
+  margin-bottom: 0.2rem;
+}
+
+.left_items ul li .icons {
+  display: inline-block;
+  width: 1.3rem;
+  color: var(--icon);
+}
+
+
