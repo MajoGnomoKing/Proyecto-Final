@@ -4,7 +4,7 @@
   transition: 0.3s ease all;
 }
 body.dark .scr_right {
-    background: var(--night);
+    background: var(--dark_base);
 }
 
 .right_items {

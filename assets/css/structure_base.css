@@ -3,9 +3,9 @@
   --primary: #383838;
   --secondary: #c2c2c2;
   --icon: #f19d1f;
-  --dark_medium: rgb(48, 48, 48);
-  --dark_grey:rgb(46, 46, 46) ;
-  --night: rgb(31, 31, 31);
+  --dark_secondary: rgb(48, 48, 48);
+  --dark_primary:rgb(46, 46, 46) ;
+  --dark_base: rgb(31, 31, 31);
 }
 
 body {
@@ -19,7 +19,7 @@ body {
 }
 
 body.dark {
-    background: var(--dark_medium);
+    background: var(--dark_secondary);
 }
 
 .container {
