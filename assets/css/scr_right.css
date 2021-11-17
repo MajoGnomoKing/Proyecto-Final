@@ -4,7 +4,7 @@
   transition: 0.3s ease all;
 }
 body.dark .scr_right {
-    background: var(--dark_base);
+  background: var(--dark_base);
 }
 
 .right_items {
@@ -15,7 +15,7 @@ body.dark .scr_right {
 }
 
 body.dark .right_items {
-    color: var(--base);
+  color: var(--base);
 }
 
 .button {
@@ -79,7 +79,7 @@ body.dark .right_items {
 }
 
 body.dark .hobbies li {
-    color:var(--icon);
+  color: var(--icon);
 }
 
 .right_title_2 {
@@ -108,5 +108,5 @@ body.dark .hobbies li {
 }
 
 body.dark .adjectives li {
-    color: var(--icon);
+  color: var(--icon);
 }

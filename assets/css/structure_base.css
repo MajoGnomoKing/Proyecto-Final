@@ -4,7 +4,7 @@
   --secondary: #c2c2c2;
   --icon: #f19d1f;
   --dark_secondary: rgb(48, 48, 48);
-  --dark_primary:rgb(46, 46, 46) ;
+  --dark_primary: rgb(46, 46, 46);
   --dark_base: rgb(31, 31, 31);
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 body.dark {
-    background: var(--dark_secondary);
+  background: var(--dark_secondary);
 }
 
 .container {
@@ -35,7 +35,7 @@ body.dark {
 }
 
 body.dark .container {
-    box-shadow: 5px 5px 5px 5px rgb(126, 125, 125);
+  box-shadow: 5px 5px 5px 5px rgb(126, 125, 125);
 }
 
 @media (max-width: 580px) {
